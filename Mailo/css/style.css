@@ -497,7 +497,6 @@ color: #FFFFFF;
 		    font-size: 30px;
     margin-bottom: -14px;
     margin-top: -20px;
-    font-family: 'Indie Flower', cursive;
 	}
 	.hero__subtitle{
 	font-size: 16px;
@@ -595,18 +594,31 @@ color: #FFFFFF;
 
 }
 @media (max-width: 397px) {
-		.contacts__block-form {
+.contacts__block-form {
     margin: 0 auto;
-	max-width: 336px;
-	    margin-bottom: 30px;
+    max-width: 336px;
+    padding-left: 34px;
+    margin-left: 5px;
+    margin-bottom: 30px;
+}
  }
 }
 @media (max-width: 367px){
-	.contacts__block-form {
+.contacts__block-form {
     margin: 0 auto;
-	max-width: 336px;
-	    margin-bottom: 30px;
+    max-width: 307px;
+    padding-left: 34px;
+    margin-left: 5px;
+    margin-bottom: 30px;
  }
+
+ .contacts__block-form .form__title {
+ 	font-size: 14px;
+    max-width: 98%;
+ }
+  .contacts__data .contacts__block-phone, .contacts__block-mail {
+        flex-basis: 100%;
+            margin-bottom: 20px;
 }
 
 
