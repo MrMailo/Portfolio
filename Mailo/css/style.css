@@ -560,6 +560,7 @@ color: #FFFFFF;
    
   }
 
+
 }
 
 @media (max-width: 320px) {
@@ -574,7 +575,9 @@ color: #FFFFFF;
 		    height: 383px;
 	}
 	.input {
-    width: 93%;
+	    margin-left: 25px;
+    max-width: 240px;
+    margin-bottom: 6px;
  }
  .contacts__data .contacts__block-phone, .contacts__block-mail {
         flex-basis: 100%;
@@ -587,7 +590,10 @@ color: #FFFFFF;
   	display: block;
     text-align: center;
   }
-
+  .button__contacts-form  {
+    padding: 24px 28px;
+        margin-left: 24px;
+}
   /*slide*/
 .project__slider .project__slide-text .project__slide-title{
   	font-size: 15px;
