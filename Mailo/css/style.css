@@ -535,6 +535,28 @@ color: #FFFFFF;
     background-position: top -27px left -111px;
     border: 5px solid #B4AE96;
  }
+ .section .contacts__block .social__links {
+    text-align: center;
+ }
+   .section .contacts__block .contacs__help{
+  	display: block;
+    text-align: center;
+  }
+
+  /*slide*/
+.project__slider .project__slide-text .project__slide-title{
+  	font-size: 15px;
+    text-align: center;
+  }
+
+  .project__slider .project__slide-text .project__slide-time {
+  	    flex-basis: 100%
+   
+  }
+  	.section .contacts__block .contacts__block-form{
+		        padding: 15px 0px 1px 0px;
+		    height: 383px;
+	}
 }
 
 @media (max-width: 320px) {
@@ -545,7 +567,7 @@ color: #FFFFFF;
 		font-size: 25px;
 	}
 	.section .contacts__block .contacts__block-form{
-		    padding: 15px 0px 15px 9px;
+		        padding: 15px 0px 1px 0px;
 		    height: 383px;
 	}
 	.input {
