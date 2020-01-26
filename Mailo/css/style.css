@@ -66,6 +66,8 @@ img{
 	line-height: 59px;
 	color: #FFFFFF;
 	margin-top: 0;
+	font-family: 'Indie Flower', cursive;
+	font-weight: 400;
 	margin-bottom: 20px;
 }
 .hero__description {
@@ -195,6 +197,7 @@ color: #FFFFFF;
 .logo{
 	    font-size: 39px;
     color: #fff;
+    font-family: 'Indie Flower', cursive;
 }
 .project__slide-time,.project__slide-cost{
 	flex-basis: 50%;
@@ -490,6 +493,87 @@ color: #FFFFFF;
     /* justify-content: center; */
     text-align: center;
 	}
+	.hero__title {
+		    font-size: 30px;
+    margin-bottom: -14px;
+    margin-top: -20px;
+    font-family: 'Indie Flower', cursive;
+	}
+	.hero__subtitle{
+	font-size: 16px;
+    /* margin: -17px; */
+    margin-top: -24px;
+    margin-bottom: 10px;
+	}
+	.hero__description {
+		    font-size: 14px;
+	}
+	.hero__content-header{
+		    margin-bottom: -97px;
+	}
+	.features__title {
+        margin: 0 auto;
+    font-size: 21px;
+    margin-bottom: -30px
+ }
+ .offer__block .offer__block-img{
+ 	margin-bottom: 1px;
+}
+ 	.offer__block .offer__block-title {
+		font-size: 18px;
+ 	}
+ 	.offer__block .offer__block-text {
+ 		font-size: 14px;
+ 	}
+ 	/*Slide*/
+ 	.project__slide-text .project__slide-subtitle {
+ 		font-size: 18px;
+ 	}
+ 	.hero__avatar {
+    width: 220px;
+    height: 220px;
+    background-position: top -27px left -111px;
+    border: 5px solid #B4AE96;
+ }
+}
+
+@media (max-width: 320px) {
+	.logo__header .logo {
+		font-size: 19px;
+	}
+	.section .section__title {
+		font-size: 25px;
+	}
+	.section .contacts__block .contacts__block-form{
+		    padding: 15px 0px 15px 9px;
+		    height: 383px;
+	}
+	.input {
+    width: 93%;
+ }
+ .contacts__data .contacts__block-phone, .contacts__block-mail {
+        flex-basis: 100%;
+            margin-bottom: 20px;
+ }
+  .section .contacts__block .social__links {
+ 	    text-align: center;
+ }
+  .section .contacts__block .contacs__help{
+  	display: block;
+    text-align: center;
+  }
+
+  /*slide*/
+.project__slider .project__slide-text .project__slide-title{
+  	font-size: 15px;
+    text-align: center;
+  }
+
+  .project__slider .project__slide-text .project__slide-time {
+  	    flex-basis: 100%
+   
+  }
+
 }
 
 
